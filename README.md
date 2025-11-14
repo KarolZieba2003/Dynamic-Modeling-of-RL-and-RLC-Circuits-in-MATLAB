@@ -17,7 +17,7 @@ This project was a laboratory assignment for the "Dynamic Systems Modeling" cour
 ## Key Features
 
 Both scripts use `dsolve` to find the exact analytical formulas for current $i(t)$ and capacitor voltage $u_c(t)$.
-Then they generate plots showing the time-based response for various scenarios (e.g., $i(t)$, $u_c(t)$).
+Then they generate plots showing the time-based response for various scenarios (e.g., $i(t)$, $u_c(t)$ ).
 The first file shows that in every RL circuit (and in every first-order circuit) the time needed for the system to reach steady state is approximately five time constants $\tau$. The second file, which analyzes an RLC circuit, generates phase plots (e.g., $i$ vs. $di/dt$) to visualize the system's dynamics and stability.
 
 ---
@@ -37,7 +37,7 @@ Analyzes the current decay based on different initial conditions $i(0)$, the sys
 
 ### Exercise 2: RLC Circuit (2nd Order System)
 
-Analyzes the impact of component values ($C$) on the system's damping. The plots below show the difference between an underdamped and a critically damped system.
+Analyzes the impact of capacity ($C$) on the system's damping. The plots below show the difference between an underdamped and a critically damped system.
 
 | Underdamped (C < C_crit) | Critically Damped (C = C_crit) |
 | :---: | :---: |
